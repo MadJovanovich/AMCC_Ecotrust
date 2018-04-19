@@ -1,0 +1,69 @@
+---
+title: 'Garibaldi Seafood Value Chain Assessment: Questions'
+author: "Madeline Jovanovich"
+date: "4/19/2018"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '6'
+  html_document:
+    highlight: tango
+    theme: paper
+    toc: yes
+    toc_depth: 6
+    toc_float: no
+---
+
+
+
+Example of seafood value chain synthesis, [West Cost Groundfish in California](http://www.wildernessmarkets.com/wp-content/uploads/2015/12/Wilderness-Markets-West-Coast-Groundfish-in-California-synthesis-Final-Dec-20-2015-Web.pdf)
+
+####Research Questions 
+
+(italics indicates areas of secondary importance to Madeline, but she will include data on these topics if convenient throughout the synthesis process)
+
+1.  What species are commercially landed in the region? See the [Oregon Department of Fish and Wildlife](http://www.dfw.state.or.us/fish/commercial/landing_stats/2017/index.asp)
+    a) Ports, volume by species, gear types, species value; focus effort on species of highest importance, in terms of lbs and exvessel value
+        * For example, dungeness is the most important species in the region, accounting for x% landings in 2017 and x% total commercial fishery value
+    b) Describe what is know about the use of the species
+        * Harvested for food or bait? 
+    c) Describe what is know about     
+    
+2.  What are the harvest trends for the important species?
+    * Flexibility in choosing the time period to evaluate based on data. 
+    a)  Capturing trends in past 5-15 years is likely the most valuable.
+    b)  Are they going up, down, staying the same? Do we know why?
+    c)  Describe trends in easy to understand percentages where possible. 
+    d)  Are there any species that are not abundant now that may be in the future? 
+    
+3.  What are the top environmental issues that present in the region’s fisheries today that might impact their future?
+    a)  This could include overfishing, agricultural impacts, ecosystem shifts, climate change/ocean acidification (although if we refer to climate and OA let’s try and use specific data about potential impacts to this region and these species). 
+   *b)   What is the level of awareness about these issues amongst fishermen?*
+
+4.  What are the agencies and entities with authority over Garibaldi’s fisheries? 
+    *   This will include Oregon Department of Fish and Wildlife, Pacific Fishery Management Council, etc. 
+    *   *How are local/regional fishermen and representatives engaged in the management process?* 
+    
+5.  *What are the top socio-economic issues that present in the region’s fisheries today that might impact their future?*
+    *   This will include access to the fisheries (for example transitioning albacore tuna from open access to limited entry has been an active management discussion for many years). 
+
+6.  *Who is harvesting the fish?*
+    * What do we know about the residency and makeup of the fleet both captains and crew?
+
+7.  *Who is processing the fish?* 
+8.  *Who is distributing the fish?* 
+9.  *Who is marketing the fish?*
+
+
+
+####Commercial Landings Profile
+
+####Harvest Trends
+
+####Environmental Issues and Sustainability 
+
+####Governance and Management of Garibaldi Fisheries
+
+    
+    
+    

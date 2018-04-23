@@ -3,9 +3,6 @@ title: 'Garibaldi Seafood Value Chain Assessment: Questions'
 author: "Madeline Jovanovich"
 date: "4/19/2018"
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '6'
   html_document:
     highlight: tango
     theme: paper
@@ -16,18 +13,23 @@ output:
 
 
 
-Example of seafood value chain synthesis, [West Cost Groundfish in California](http://www.wildernessmarkets.com/wp-content/uploads/2015/12/Wilderness-Markets-West-Coast-Groundfish-in-California-synthesis-Final-Dec-20-2015-Web.pdf)
+
+```{r, include=FALSE, message=FALSE, warning=FALSE}
+library(kableExtra)
+```
+
+[West Cost Groundfish in California](http://www.wildernessmarkets.com/wp-content/uploads/2015/12/Wilderness-Markets-West-Coast-Groundfish-in-California-synthesis-Final-Dec-20-2015-Web.pdf): Example of seafood value chain synthesis
 
 ####Research Questions 
 
 (italics indicates areas of secondary importance to Madeline, but she will include data on these topics if convenient throughout the synthesis process)
 
 1.  What species are commercially landed in the region? See the [Oregon Department of Fish and Wildlife](http://www.dfw.state.or.us/fish/commercial/landing_stats/2017/index.asp)
-    a) Ports, volume by species, gear types, species value; focus effort on species of highest importance, in terms of lbs and exvessel value
+    a) Ports, volume by species, gear types, species value; focus effort on species of highest importance, in terms of lbs and ex-vessel value
         * For example, dungeness is the most important species in the region, accounting for x% landings in 2017 and x% total commercial fishery value
     b) Describe what is know about the use of the species
         * Harvested for food or bait? 
-    c) Describe what is know about     
+    c) Describe what is know about ODFW data    
     
 2.  What are the harvest trends for the important species?
     * Flexibility in choosing the time period to evaluate based on data. 
@@ -54,6 +56,42 @@ Example of seafood value chain synthesis, [West Cost Groundfish in California](h
 8.  *Who is distributing the fish?* 
 9.  *Who is marketing the fish?*
 
+####Attributes table 
+
+Harvest and Landings by: 
+
+* year
+* port
+* volume
+* gear type
+* species
+* value
+* market: human consumpsiton or bait fishery? 
+* number of processors
+* type of processors (small scale or large industrial)
+* number of workers at processing facilities (is this data available?)
+
+Other possible data: 
+
+* biomass of harvested species
+* biomass of unharvested, but possible to harvest species
+* meat content of dungeness surveys
+* sea surface temperatures 
+* any other ocean climate data that may be available
+
+
+Data from the past 5-15 years is of most importance, but appreicated if greater time scales are available.
+
+```{r, include=FALSE}
+
+attributes <- read.csv("~/AMCC_Ecotrust/DataReq_AttributeTable.csv")
+attributes <- attributes[c(1:3)]
+attributes <- attributes[c(1:11),]
+```
+```{r, echo=FALSE}
+kable(attributes, caption="Data Request to Oregon Department of Fish and Wildlife")
+```
+
 
 
 ####Commercial Landings Profile
@@ -64,6 +102,47 @@ Example of seafood value chain synthesis, [West Cost Groundfish in California](h
 
 ####Governance and Management of Garibaldi Fisheries
 
+####Notes from phone conversation with Kelly, 4/19/18
+* Data request: "super helpful to do"
+* Kelly will get that underway, cc me on the email 
+* Attribute table or description for data request: SEND TO KELLY ASASP 
+* Albacore landings: compare 2016 to 2017
+* Increased water temperature and meat content of dungees: delay of fishery past 2 years. Did this affect the landings or just timing? Is there data on opening timing? Should be news * releases online, might be best to have a conversation with a biologist, but I should do some research. 
+* Who is the best contact for each fishery? 
+* Clams: quite a few in Garibaldi, mostly used for bait, but interest in finding higher-value human food markets for clams 
+* Tillamook County: huge dairy coop at head of Bay; some fishermen mentioned the agricultural discharge. Should the clam fishery be developed given ag run off occurs in the region? 
+* Salmon: "down big time" which species are ESA listed? What are the current forecasts/predictions? Nowadays, typically caught opportunistically. Fleets are booming during some seasons, scraping during others. Lots of out-dated wooden boats. Not highly educated, very traditional fishermen. Some young guys around that are thinking towards the future and potential to do more with what they have. 
+* Bait for crab: "huge thing", importing a lot of stuff outside of local clams, as well as using carcasses from other fisheries. Some guys will jig for rockfish or lingcod, and all carcasses were sold for bait to crab fishermen. 
+* Garibaldi Landing, owned by Fish People: B corporation (certification), allowed to incorporate social and enviro decision-making which differs from basic corporate law (which involved decision-making that would result in best business practices, profit). Only a few seafood B corps, but getting more well-known by industry and consumers. 
+* Buyer for Pacific Seafoods (like the Trident of the PNW)
+* Some mom & pop seafood shops, very small in comparison 
+* Fishermen sell whole fish to buyers, processors fillet and sell, then sell carcasses to crab fishermen
+
+* **This doesn't really increase the exvessel value to fishermen, maybe to some extent. Fishermen really like this bait, some think it's the best around, but such a small volume being landed in the community. Probably harder to sell just the fillet than the carcass. This question wasn't really answered, but we can look into it more.** 
+
+* Research more into how Oregon fisheries management works: maybe start with #4? 
+* "Also not completely familiar with this yet"
+* Dungeness Crab Commission 
+* Albacore Tuna Commission, more so marketing bodies than management
+* Maybe have a conversation with a biologist to ensure we're covering all bases, include Kelly if she is around 
+
+* "your sense of how to proceed is a good one"
+* Keep track of breadth and depth given the limited time before the fishing season 
+
+* Learning Contract: didn't see anything that was not do-able 
+* Reinventing the wheel isn't necessary 
+* National Young Farmers Coalition, "why can't we take this model and apply to young fishermen"
+Modeling community-supported fisheries, not necessarily cutting out the middle man: if you're in a community that has market access adjacent to the landings = food hub model 
+Value Chain assessments: Are we going to find out that working with port at the RED entity provides opportunity? What if the port isn't involved? What relationships are beneficial? 
+"Would be great to get me down to Portland and Garibaldi to see the place in action; depending on what happens in the fall, keep that in the docket"
+Contract: how much in the pot for pay? Says $3000 with opportunity to increase, may go up to $4000 (or more if we're lucky). One group is supposed to get a fellow but does not have one; if not AMCC will add more money to the pot 
+
+* Kim Selco at NCEAS: director for commercial fishermen of Santa Barbara; trying to start up a community-supported fishery that's based off of Monterrey Reel Good Fish model 
     
     
-    
+Rachel will send me actual contract    
+* Half paid up front     
+* Clean up learning contract right now 
+* Project description: Kelly will update and send to me and Rachel 
+
+Communicate via email to stay in touch, call on the phone 
